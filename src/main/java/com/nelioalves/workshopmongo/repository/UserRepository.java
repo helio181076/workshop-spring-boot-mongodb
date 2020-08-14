@@ -11,6 +11,8 @@ import com.nelioalves.workshopmongo.domain.User;
 public interface UserRepository extends MongoRepository<User, String> {
 
 	List<User> findAll();
+
+	//Object delete(String id);
 	
 
 }
